@@ -47,3 +47,18 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+.btn-new {
+	background-color: #494949 ;
+	color: white;
+}
+
+a { color: inherit; 
+} 
+
+.downbutton {font-size: 0.8em}
+
+.birth {
+	padding-left: 3px;
+	color: gray ;
+}
