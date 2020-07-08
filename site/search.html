@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Log-in</title>
+    <title>Sign-Up</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -28,35 +28,26 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="navbar-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class=""><a href="sign-up.html">Sign Up <span class="sr-only">(current)</span></a></li>
-          <li><a href="search.html">Search Villagers</a></li>
-          <li><a href="Register.html">Register Villagers</a></li>
+          <li><a href="log-in.html">Log In</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
   <!-- end of navbar header -->
   
-  <!-- login form -->
-  <div class="login-form">
-    <form action="" method="post">
-        <h2 class="text-center">Log in</h2>       
+  <form action="" method="post">
+        <h3 class="text-center">Search</h3>
         <div class="form-group">
-            <input type="email" class="form-control" placeholder="E-mail" required="required">
+            <input type="search" class="form-control" placeholder="NIC Number" required="required" maxlength="20">
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password" required="required">
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block">Log in</button>
-        </div>
-        <div class="clearfix">
-            <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-            <a href="index.html" class="float-right">Forgot Password?</a>
-        </div>        
+            <button type="submit" class="btn btn-primary btn-block">Search</button>
+        </div>  
     </form>
-    <p class="text-center"><a href="sign-up.html">Create an Account</a></p>
-  <!-- end of login form -->
+  <hr><hr>
+    <h2 class="text-center">Results</h2>
+    
 
   <!-- copyrights -->
   <section class="container col-xs-12">

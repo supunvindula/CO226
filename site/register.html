@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <!-- navbar header -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">E-GRAMA</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="log-in.html">Log In</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
+          <li><a href="search.html">Search Villagers</a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- end of navbar header -->
+  
+  <h2 class="text-center">Register Villager</h2>
+  <!-- signup form -->
+  <div class="login-form">
+    <form action="" method="post">
+        <h3 class="text-center">Personal Details</h3>  
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="NIC Number" required="required" maxlength="12">
+        </div>     
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="First Name" required="required" maxlength="15">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Middle Name" required="required" maxlength="15">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Last Name" required="required" maxlength="15">
+        </div>
+        <p class="birth">Date of Birth</p>
+        <div class="form-group">
+            <input type="date" class="form-control" placeholder="Date of Birth" required="required" maxlength="">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Gender (Male/Female)" required="required" maxlength="6">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Address" required="required" maxlength="40">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Martial Status (Single / Married)" required="required" maxlength="7">
+        </div>
+    </form>
+
+    <!-- work -->
+    <form action="" method="post">
+        <h3 class="text-center">Work</h3>    
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Position" required="required" maxlength="10">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Address" required="required" maxlength="40">
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" placeholder="Salary in LKR" required="required" maxlength="">
+        </div>
+        <p class="birth">Date of Appointment</p>
+        <div class="form-group">
+            <input type="date" class="form-control" placeholder="Date of Appointment" required="required" maxlength="">
+        </div>
+    </form>
+
+    <!-- Relation -->
+    <form action="" method="post">
+        <h3 class="text-center">Relation</h3>    
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="NIC Number" required="required" maxlength="12">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Status (Ex: Husband)" required="required" maxlength="10">
+        </div>
+    </form>
+
+    <form action="" method="post">
+        <h3 class="text-center">Dependent</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" required="required" maxlength="15">
+        </div>
+    </form>
+
+    <!-- Property -->
+    <form action="" method="post">
+        <h3 class="text-center">Property</h3>    
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Assesment Number" required="required" maxlength="10">
+        </div>
+        <p class="birth">Owned Date</p>
+        <div class="form-group">
+            <input type="date" class="form-control" placeholder="Owned Date" required="required" maxlength="">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Address" required="required" maxlength="40">
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" placeholder="Cultivated (Yes/No)" required="required" maxlength="3">
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" placeholder="Mean Income in LKR" required="required" maxlength="">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Status (Rent/Lease/..)" required="required" maxlength="20">
+        </div>
+    </form>
+
+    <!-- Cultivated lands -->
+    <form action="" method="post">
+        <h3 class="text-center">Cultivated Lands</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Crops" required="required" maxlength="20">
+        </div>
+    </form>
+
+    <!-- house -->
+    <form action="" method="post">
+        <h3 class="text-center">House</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="House Assesment Number" required="required" maxlength="5">
+        </div>
+    </form>
+
+    <!-- shop -->
+    <form action="" method="post">
+        <h3 class="text-center">Shop</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Registration Number" required="required" maxlength="5">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" required="required" maxlength="15">
+        </div>
+    </form>
+
+    <!-- submit -->
+    <form action="" method="post">
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
+        </div>  
+    </form>
+    <p class="text-center"><a href="search.html">Search</a></p>
+  <!-- end of signup form -->
+
+  <!-- copyrights -->
+  <section class="container col-xs-12">
+      <p class=" copyrights text-center">Made for CO226 Assignment</p>
+    </section>
+    <!-- end of copyrights -->
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
