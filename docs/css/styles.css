@@ -1,0 +1,64 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.btn-lg a:hover, .btn-lg a:active, .btn-lg a:visited {
+    color: white !important;
+}
+
+.copyrights {
+	color: white ;
+	font-style: italic;
+	background-color: #494949 ;
+	border: 0 ;
+	padding: 15px 0px 15px 0px;
+}
+.col-xs-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar-brand {
+	font-size: 150%% ;
+}
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-new {
+	background-color: #494949 ;
+	color: white;
+}
+
+a { color: inherit; 
+} 
+
+.downbutton {font-size: 0.8em}
+
+.birth {
+	padding-left: 3px;
+	color: gray ;
+}
